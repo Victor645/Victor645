@@ -1,0 +1,281 @@
+.contain{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(IMG/img-3/cover.jpg);
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:top  center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-logo{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 40px;  
+}
+
+.navbar-nav{
+ margin-left:100px;
+}
+
+#head-txt{
+    color:white;
+    text-align:center;
+}
+
+#head{
+    font-size:60px;
+    margin-bottom:30px;
+}
+#txt{
+    font-size:27px;
+    margin:40px 10px 10px 10px;
+}
+
+#bn{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:95px;
+    
+}
+
+#anc{
+    text-decoration:none;
+    background-color:aqua;
+    border-radius:30px;
+    color:white;
+ font-size: 20px;
+    font-weight:700;
+    outline: none;
+    border: none;
+    padding:13px 30px;
+    cursor:pointer;
+    transition: 0.7s ease;      
+}
+
+#anc:hover{
+    background-color:white;
+    color: aqua;
+}
+
+.con{
+    background-color:aqua;
+    color:white;
+}
+
+#collapsible{
+ color:white;
+}
+
+.anchor{
+ color:white;
+}
+   
+   
+   .ab-head{
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:40px;
+    font-size: 27px;
+   }
+   
+  .para{
+   text-align:center;
+  }
+  
+  .round{
+   background-color:aqua;
+   width:180px;
+   height:180px;
+   padding:12px;
+   margin:20px;
+   border-radius:100px;
+   margin-bottom: 70px;
+  }
+   
+   .r1{
+    background-color:white;
+    width:160px;
+    height:160px;
+    border-radius:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   }
+   
+   .r-w{
+    text-align:center;
+    font-size:20px;
+    font-weight: 700;
+   }
+   
+   .r-sec{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+   }
+   
+   .theme{
+    background-image:url(IMG/img-3/parallax-bg.jpg);
+    width:100%;
+    height: 90vh;
+    background-size: cover;
+    background-position:top  center;
+    padding-bottom:20px;
+   }
+   
+   .th{
+    color:white;
+    text-align:center;
+    margin-top:30px;
+    padding-top:80px;
+   }
+   
+   .th-head{
+    font-size:30px;
+   }
+   
+   .th-im{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:40px;
+   }
+   
+   .img{
+    height:370px;
+   }
+   
+   .feat{
+    background-color:#199DF0;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    color:white;
+    margin-top:40px;
+   }
+   
+   .btn-lg{
+    background-color: #199DF0;
+    border-color: white;
+    outline:3px white;
+    border-radius:50px;
+    width: 220px;
+    height:50px;
+    text-align:center;
+    color:white;
+    font-size:20px;
+   }
+   
+   .btn-lg:hover{
+    background-color:white;
+    color:black;
+   }
+   
+   .port{
+    background-color:#DFF7FA;
+    background-position: center;
+   
+   }
+   
+  .port-head{
+    text-align:center;
+    color:aqua;
+    padding-bottom:20px;
+    
+   }
+   
+   .p-txt{
+    text-align:center;
+    margin:20px 20px;
+    padding-bottom:20px;
+   }
+   
+   .img-port{
+    width:240px;
+    height:150px;
+    padding:3px;
+    margin-left:6px;
+   }
+   
+   .head{
+    -webkit-animation: round 2s both;
+    -moz-animation: round 2s both;
+    -o-animation: round 2s both;
+    animation:round 2s both;
+   }
+   
+   @-webkit-keyframes round{
+    0%{
+     opacity: 0;
+     -webkit-transform: translateX(-50px);
+    }
+    100%{
+     opacity:1;
+     -webkit-transform: translateX(0);
+    }
+   }
+   
+   #title{
+    text-align:center;
+    color:#199DF0;
+    /*padding:20px 20px;
+    margin:10px 10px;*/
+   }
+   
+   #t-img{
+    width:230px;
+    height:240px;
+   /* margin:5px 0px;
+    padding:10px 10px;*/
+
+   }
+   
+   .img{
+	   text-align:center;
+   }
+   
+
+   
+   .team{
+    display:flex;
+    align-items:center;
+	justify-content:center;
+   }
+   
+   .form{
+    background-color:#DFF7FA;
+   }
+   
+   .row{
+    margin: 20px 20px;
+    padding:30px 30px;
+   }
+   
+   .input{
+    width:350px;
+    padding-bottom: 20px;
+    margin-bottom:20px; 
+   }
+  
+  .btns{
+   border:none;
+   outline:none;
+   width:90px;
+   height:40px;
+   color:white;
+   background-color: #199DF0;
+   cursor:pointer;
+   font-weight:700;
+   transition: ease-in-out 2s;
+   border-radius:5px;
+  }
+  
+  .btns:hover{
+   background-color:black;
+  }
